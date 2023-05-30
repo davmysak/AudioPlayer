@@ -15,7 +15,6 @@
     <script>
       // Create an instance of the audio-player component
       const audioPlayer = document.createElement('audio-player');
-      // Append the component to a specific location in the document
       document.body.appendChild(audioPlayer);
     </script>
 </body>
