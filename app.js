@@ -1,4 +1,4 @@
-class MyComponent extends HTMLElement {
+class AudioPlayer extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({
@@ -32,4 +32,4 @@ class MyComponent extends HTMLElement {
         // Handle the click event
     }
 }
-customElements.define('my-component', MyComponent);
+customElements.define('AudioPlayer', AudioPlayer);
